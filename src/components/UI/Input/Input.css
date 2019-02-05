@@ -1,0 +1,149 @@
+.input {
+    border: 2px solid #002171;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.inputUnvalid {
+    outline: none;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    background: none;
+    color: #424242;
+    padding: 10px 10px 10px 5px;
+    width: 320px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid red;
+}
+
+.inputValid {
+    outline: none;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    background: none;
+    color: #424242;
+    padding: 10px 10px 10px 5px;
+    width: 320px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid green;
+}
+
+.filterInput {
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    background-color: #2f98cb;
+    color: #fff;
+    font-family: cursive;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filterInput option {
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    background-color: #2f98cb;
+    color: #fff;
+    font-family: cursive;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filterButton {
+    width: 100%;
+    height: 47px;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    background-color: #f04646;
+    color: #fff;
+    font-family: initial;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.validButton {
+    background: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+}
+
+.validButton:hover {
+    background: #fff;
+    color: black;
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+
+.unValidButton {
+    margin-top: 10px;
+    background: green;
+    cursor: not-allowed;
+    opacity: .5;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    color: #002171;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+textarea {
+    resize: none;
+}
+
+input,
+textarea {
+    background: none;
+    color: #424242;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    padding: 10px 10px 7px 5px;
+    display: block;
+    width: 320px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #4560a2;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+input[type="file"] {
+    border: 0;
+    background: #4560a2;
+    color: beige;
+}

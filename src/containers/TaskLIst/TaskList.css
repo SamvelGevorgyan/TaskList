@@ -1,0 +1,9 @@
+.loader-area {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    top: 0;
+}

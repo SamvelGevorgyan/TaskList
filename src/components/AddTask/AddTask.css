@@ -1,0 +1,15 @@
+.AddTaskContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 3vh;
+    box-shadow: 0 1px 2px 0 rgba(226, 229, 234, 0.88);
+    background-color: #ffffff;
+}
+
+.AddTaskContainer div {
+    padding: 10px;
+}
